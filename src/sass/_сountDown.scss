@@ -1,0 +1,29 @@
+html { height: 100%; }
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ecf0f1;
+}
+
+.timer{
+  display: flex;
+}
+
+
+.field{
+  padding: 12px;
+	border-radius: 6px;
+	background:  #bdc3c7;
+	display: grid;
+  margin: 8px 2px;
+  .value{
+    padding: 16px;
+	  border-radius: 3px;
+	  background: #34495e;
+	  color:#ffffff;
+    font-size: 2em;
+  }
+}
